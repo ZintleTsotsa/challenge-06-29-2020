@@ -1,0 +1,184 @@
+.header {
+    padding: 10px;
+    background: lightgray;
+    color: black;
+    font-size: 40px; font-weight: normal;
+      line-height: 5px;
+      position: relative;
+      margin: 0;
+  }
+  .img{
+    position: absolute;
+    left: 10%;
+    width: 60px;;
+    height: 60px;
+}
+img {
+    border-radius: 50%;
+  }
+  h1 { color:black; 
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px; font-weight: normal;
+      line-height: 50px;
+      text-align: center; 
+      padding: 10px;
+      text-align: center;}
+    
+body, html {
+    height: 80%;
+    margin: 0;
+}
+  .nav {
+    overflow: hidden;
+    background-color: lightgray;
+    text-align: center;
+    z-index: 6;
+  }
+  
+  .nav a {
+   display: inline-block;
+   margin-right: -4px;  /* inline-block gap fix */
+   color:black;
+   padding: 22px 22px;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+  }
+  
+  .nav a:hover {
+    background-color: #575b69;
+    color: greenyellow;
+  }
+  .active {
+    background-color:palevioletred;
+  }
+  .nav .icon {
+    display: none;
+  }
+  .content {
+    text-align: center; 
+    padding-left:14px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;  
+    color:black;
+    font-size: 20px;
+    column-count: inherit;
+    position: relative;
+    margin-left: 150px;
+  }
+  
+body {
+    font-size: 13px;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: lightgray;
+
+}
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    background:royalblue;
+    color:black;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+    font-size: 100%;
+justify-content: space-between;
+  }
+  .btn2{
+    display: inline-block;
+    text-decoration: none;
+    background: palevioletred;
+    color:black;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+    font-size: 100%;
+    justify-content: space-between;
+    
+  }
+  .btn3{
+    display: inline-block;
+    text-decoration: none;
+    background:greenyellow;
+    color:black;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+    font-size: 100%;
+    justify-content: space-between;
+  }
+    
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+      }
+      
+     
+     /* Style the footer */
+     
+    
+      .social-media img {
+        height: 50px;
+        width: 50px;
+        padding:0;
+        border-radius: 50%;
+        float: right;
+        background:rgb(73, 65, 65);
+        justify-content: space-between;
+    
+      }
+     
+      .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background:palevioletred;
+        padding: 10px;
+      }
+      /* style about */
+      .buttons.{
+        color:black;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .lineHorizontal__container {
+        display: flex;
+        height: 80px;
+      }
+      .lineHorizontal {
+        border-top: 1px solid rgb(30, 30, 30);
+      }
+      .lineHorizontal--short {
+        width: 40%;
+      }
+    .Education{
+      position: absolute;
+    }
+    .Work{
+      float: right;
+    }
+    .Skills{
+      position: relative;
+      margin-top: 20%;
+    }
+     
